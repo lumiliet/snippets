@@ -1,0 +1,14 @@
+snippet React.class "Create a react class"
+var $1 = React.createClass({
+	render: function() {
+		$2
+	}
+});
+endsnippet
+
+snippet React.render "Render a react class"
+ReactDOM.render(
+	React.createElement($1, {$2}),
+	document.getElementById('$3')
+);
+endsnippet
