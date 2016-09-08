@@ -1,12 +1,12 @@
-snippet React.class "Create a react class"
-var $1 = React.createClass({
-	render: function() {
+snippet react.class "Create a react class"
+const $1 = React.createClass({
+	render() {
 		$2
 	}
 });
 endsnippet
 
-snippet React.render "Render a react class"
+snippet react.render "Render a react class"
 ReactDOM.render(
 	React.createElement($1, {$2}),
 	document.getElementById('$3')
